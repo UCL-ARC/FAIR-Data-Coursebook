@@ -66,7 +66,7 @@ jobs:
       - name: "Get container version info"
         id: wb-vers
         if: steps.build-check.outputs.do-build == 'true'
-        uses: carpentries/actions/container-version@main
+        uses: carpentries/actions/container-version@frog-wf-cver-1
         with:
           WORKBENCH_TAG: ${{ vars.WORKBENCH_TAG }}
           renv-needed: ${{ steps.build-check.outputs.renv-needed }}
