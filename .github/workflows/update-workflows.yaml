@@ -87,10 +87,11 @@ jobs:
       - name: Update Workflows
         id: update
         if: ${{ steps.validate-token.outputs.wf == 'true' }}
-        uses: carpentries/actions/update-workflows@main
+        uses: carpentries/actions/update-workflows@frog-updwf-token-1
         with:
           version: ${{ github.event.inputs.version || 'latest' }}
           clean: ${{ github.event.inputs.clean || '.yaml' }}
+          token: ${{ steps.set-pat.outputs.pat || secrets.SANDPAPER_WORKFLOW }}
 
       - name: Create Pull Request
         id: cpr
