@@ -1,0 +1,76 @@
+#------------------------------------------------------------
+# Values for this lesson
+#------------------------------------------------------------
+
+carpentry: 'lc'
+
+# Alt-text description of the lesson.
+carpentry_description: 'FAIR Research Data Coursebook'
+
+# Overall title for pages.
+title: 'FAIR Research Data Coursebook' # FIXME
+
+# Date the lesson was created (YYYY-MM-DD, this is empty by default)
+created: 
+
+# Comma-separated list of keywords for the lesson
+keywords: 'FAIR, data'
+
+# Life cycle stage of the lesson
+# possible values: pre-alpha, alpha, beta, stable
+life_cycle: 'stable'
+
+# License of the lesson
+license: 'CC-BY 4.0'
+
+# Link to the source repository for this lesson
+source: 'https://github.com/carpentries-incubator/FAIR-research-data-coursebook/'
+
+# Default branch of your lesson
+branch: 'main'
+
+# Who to contact if there are any issues
+contact: 'p.hernandezserrano@maastrichtuniversity.nl'
+
+# Navigation ------------------------------------------------
+#
+# Use the following menu items to specify the order of
+# individual pages in each dropdown section. Leave blank to
+# include all pages in the folder.
+#
+# profiles:
+# - one-learner.md
+# - another-learner.md
+
+# Order of episodes in your lesson
+episodes:
+- 01-introduction.md
+- 02-terms-of-use.md
+- 03-data-descriptions.md
+- 04-access-protocols.md
+- 05-data-archiving.md
+- 06-rich-metadata.md
+- 07-data-reusing.md
+
+
+# Information for Learners
+learners:
+- setup.md
+- local_install.md
+- devcontainer.md
+- docker.md
+- github.md
+- internals.md
+- faq.md
+
+# Information for Instructors
+instructors:
+- instructor-notes.md
+
+# Learner Profiles
+profiles:
+
+# Customisation ---------------------------------------------
+#
+# This space below is where custom yaml items (e.g. pinning
+# sandpaper and varnish versions) should live
