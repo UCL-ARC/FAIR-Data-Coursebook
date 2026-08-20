@@ -20,7 +20,7 @@ keypoints:
 > FAIR means human and machine-friendly data sources which aim for transparency in science and future reuse.  
 {: .objectives}
 
-<img src="../fig/FAIRcoursebook-image0_1.png" alt="FAIR and Open Science" style="max-width: 80%; height: auto;">
+![FAIR and Open Science](fig/FAIRcoursebook-image0_1.png){alt="FAIR and Open Science" style="max-width: 80%; height: auto;"}
 
 > ## What does it mean to be machine-readable vs human-readable?  
 > **Human Readable**: “Data in a format that can be conveniently read by a human. Some human-readable formats, such as PDF, are not machine-readable as they are not structured data, i.e., the representation of the data on disk does not represent the actual relationships present in the data.”  
@@ -28,7 +28,7 @@ keypoints:
 {: .prereq}
 
 <br>
-<img src="../fig/FAIRcoursebook-image0_2.png" alt="Machine Friendly DO">
+<img src="../episodes/fig/FAIRcoursebook-image0_2.png" alt="Machine Friendly DO">
 <br>
 
 > ## Machine friendly = Machine-readable + Machine-actionable + Machine-interoperable
