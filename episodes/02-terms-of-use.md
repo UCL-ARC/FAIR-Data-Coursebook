@@ -29,7 +29,7 @@ Data Terms of Use is a textual statement that sets the rules, terms, conditions,
 
 An example is:
 
-![Terms of Use](fig/FAIRcoursebook-image1_1.png){alt="Terms of Use" style="width: 33%; float: left; margin-right: 10px;"}
+![Terms of Use](fig/FAIRcoursebook-image1_1.png){alt="Terms of Use"}
 
 **The World Bank - Terms of Use for Datasets**   → [LINK TO EXAMPLE](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets)   
 
