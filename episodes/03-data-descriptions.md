@@ -16,20 +16,17 @@ keypoints:
 - "By reusing **Ontology terms** or community accepted vocabularies, we aim to create a culture of recycling terminology by default."
 ---
 
-> ## FAIR principles used in Data Descriptions:  
-> **Interoperable**   
-> > FM-I1 (Use a Knowledge Representation Language) → [doi.org/10.25504/FAIRsharing.jLpL6i](https://doi.org/10.25504/FAIRsharing.jLpL6i)  
-> > FM-I2 (Use FAIR Vocabularies) → [doi.org/10.25504/FAIRsharing.jLpL6i](https://doi.org/10.25504/FAIRsharing.0A9kNV)  
->
-> **Reusable**  
-> > FM-R1.3 (Meets Community Standards) → [doi.org/10.25504/FAIRsharing.cuyPH9](https://doi.org/10.25504/FAIRsharing.cuyPH9)  
->
-{: .checklist}
+## FAIR principles used in Data Descriptions:  
+**Interoperable**   
+FM-I1 (Use a Knowledge Representation Language) → [doi.org/10.25504/FAIRsharing.jLpL6i](https://doi.org/10.25504/FAIRsharing.jLpL6i)  
+FM-I2 (Use FAIR Vocabularies) → [doi.org/10.25504/FAIRsharing.jLpL6i](https://doi.org/10.25504/FAIRsharing.0A9kNV)  
+
+**Reusable**  
+FM-R1.3 (Meets Community Standards) → [doi.org/10.25504/FAIRsharing.cuyPH9](https://doi.org/10.25504/FAIRsharing.cuyPH9)  
 
 ### 1. What are Data Descriptions?
 
-> Data descriptions are a detailed explanation and documentation of each data attribute or variable in a dataset.  
-{: .objectives}
+Data descriptions are a detailed explanation and documentation of each data attribute or variable in a dataset.  
 
 Depending on the use case and field of research, these data descriptions are also known as:  
 - Codebooks (e.g., in Statistics or Social Sciences)
@@ -47,10 +44,9 @@ For example:
 |Age | Age of a human | years|
 |Blood Glucose Level |Blood glucose level of a human | mg/dl|
 
-> ## "Data Descriptions" is sometimes named differently depending on the field
->
-> No matter what terminology you use, "Data Descriptions" always refers to a detailed explanation and documentation of each data attribute or variable in a dataset.
-{: .callout}
+## "Data Descriptions" is sometimes named differently depending on the field
+
+No matter what terminology you use, "Data Descriptions" always refers to a detailed explanation and documentation of each data attribute or variable in a dataset.
 
 ### 2. How to reuse Data Descriptions?
 
@@ -58,28 +54,27 @@ Documentation of any kind always takes time. However, we shall always aim to reu
 
 For example, in [BioPortal](https://bioportal.bioontology.org/), we can find existing descriptions of `Weight`. These descriptions belong to an [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)), i.e., a community-accepted online dictionary for curated terms and definitions. Moreover, it provides a globally unique identifier to the description.  → [LINK TO EXAMPLE](https://bioportal.bioontology.org/)  
 
-<br>
-<img src="../fig/FAIRcoursebook-image2_1.png" alt="bioportal 1" style="max-width: 60%; height: auto;">
-<br>
-You will get several results when searching for a term and its definition. These results regard the different ontologies that define these terms. For example, think of the description of an apple. It might be defined differently in a British dictionary than in an American one.
-<br>
-<img src="../fig/FAIRcoursebook-image2_2.png" alt="bioportal 2" style="max-width: 60%; height: auto;">
-<br>
-Finally, using this Ontology, you can get a standard definition that community experts curate has a global identifier.  
-<br>
-<img src="../fig/FAIRcoursebook-image2_3.png" alt="bioportal 3" style="max-width: 60%; height: auto;">
-<br>
 
-> ## Describe your data by reusing Ontology terms  
->
-> By reusing Ontology terms or community-accepted vocabularies, we aim to create a culture of recycling definitions by default.  
-> > **Advantages**  
-> > - We don't have to redefine the terms every time
-> > - We get a permanent link to the resource
-> > - Since it uses a global identifier becomes easier for others to integrate with different data sources  
-> > **Disadvantages**  
-> > - Sometimes, you might not find an Ontology or vocabulary that fits your variable.  
-{: .callout}
+![Bioportal 1](/fig/FAIRcoursebook-image2_1.png){alt="bioportal 1" style="max-width: 60%; height: auto;"}
+
+You will get several results when searching for a term and its definition. These results regard the different ontologies that define these terms. For example, think of the description of an apple. It might be defined differently in a British dictionary than in an American one.
+
+![Bioportal 2](fig/FAIRcoursebook-image2_2.png){alt="bioportal 2" style="max-width: 60%; height: auto;"}
+
+Finally, using this Ontology, you can get a standard definition that community experts curate has a global identifier.  
+
+![Bioportal 3](fig/FAIRcoursebook-image2_3.png){alt="bioportal 3" style="max-width: 60%; height: auto;"}
+
+
+## Describe your data by reusing Ontology terms  
+
+By reusing Ontology terms or community-accepted vocabularies, we aim to create a culture of recycling definitions by default.  
+**Advantages**  
+- We don't have to redefine the terms every time
+- We get a permanent link to the resource
+- Since it uses a global identifier becomes easier for others to integrate with different data sources  
+**Disadvantages**  
+- Sometimes, you might not find an Ontology or vocabulary that fits your variable.  
 
 ### 3. Are there standard ways for doing Data Descriptions?
 
@@ -93,38 +88,33 @@ The minimum elements you need to describe your dataset are the **Variable Name**
 |Data Catalog Vocabulary (DCAT) | [LINK](https://www.w3.org/TR/vocab-dcat-2/)| Definitions about data things e.g., "accessURL"|
 |Dublin Core | [LINK](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)| Definitions about Metadata|
 
-> ## There are also public registries where you can find Ontologies
-> **Linked Open Vocabularies**  → [lov.linkeddata.es/dataset/lov/](https://lov.linkeddata.es/dataset/lov/)  
-> **EU Vocabularies:**  → [op.europa.eu/en/web/eu-vocabularies](https://op.europa.eu/en/web/eu-vocabularies)  
-> **BioPortal:**  → [bioportal.bioontology.org/](https://bioportal.bioontology.org/)  
-> **AgroPortal:**  → [agroportal.lirmm.fr/](http://agroportal.lirmm.fr/)  
-> **EcoPortal** → [ecoportal.lifewatchitaly.eu/](http://ecoportal.lifewatchitaly.eu/)  
-> **Ontology Lookup Service by the EBI** → [ebi.ac.uk/ols/index](https://www.ebi.ac.uk/ols/index)  
-> **Bioschemas** → [bioschemas.org/](https://bioschemas.org/)  
-{: .prereq}
+## There are also public registries where you can find Ontologies
+**Linked Open Vocabularies**  → [lov.linkeddata.es/dataset/lov/](https://lov.linkeddata.es/dataset/lov/)  
+**EU Vocabularies:**  → [op.europa.eu/en/web/eu-vocabularies](https://op.europa.eu/en/web/eu-vocabularies)  
+**BioPortal:**  → [bioportal.bioontology.org/](https://bioportal.bioontology.org/)  
+**AgroPortal:**  → [agroportal.lirmm.fr/](http://agroportal.lirmm.fr/)  
+**EcoPortal** → [ecoportal.lifewatchitaly.eu/](http://ecoportal.lifewatchitaly.eu/)  
+**Ontology Lookup Service by the EBI** → [ebi.ac.uk/ols/index](https://www.ebi.ac.uk/ols/index)  
+**Bioschemas** → [bioschemas.org/](https://bioschemas.org/)  
 
 ----
 
-> ## Exercise - Level Easy 🌶
->
-> 1. Visit [BioPortal](https://bioportal.bioontology.org/). BioPortal is the most known repository for biomedical ontologies  
-> 2. Search for an Ontology term for `blood glucose level` In the "Search for a class" search box.  
-> 3. Select one result related to a clinical measurement that is sound to you.   
-> 4. What are the definition and ID?  
-> 
-> {: .source}
->
-> > ## Solution
-> >
-> > Definition: Measurement of the amount of glucose, the monosaccharide sugar, C6H12O6, occurring widely in plant and animal tissues which is one of the three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is the end product of carbohydrate metabolism, and is the chief source of energy for living organisms, in a specified volume of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them.  
-> > ID: [http://purl.obolibrary.org/obo/CMO_0000046](http://purl.obolibrary.org/obo/CMO_0000046)
-> > {: .output}
-> {: .solution}
-{: .challenge}
+## Exercise - Level Easy 🌶
+
+1. Visit [BioPortal](https://bioportal.bioontology.org/). BioPortal is the most known repository for biomedical ontologies  
+2. Search for an Ontology term for `blood glucose level` In the "Search for a class" search box.  
+3. Select one result related to a clinical measurement that is sound to you.   
+4. What are the definition and ID?  
+
+
+## Solution
+
+Definition: Measurement of the amount of glucose, the monosaccharide sugar, C6H12O6, occurring widely in plant and animal tissues which is one of the three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is the end product of carbohydrate metabolism, and is the chief source of energy for living organisms, in a specified volume of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them.  
+ID: [https://purl.obolibrary.org/obo/CMO_0000046](https://purl.obolibrary.org/obo/CMO_0000046)
 
 The **Data Descriptions** (or data dictionaries in some domains) are usually manually written in a tabular format. This document has the length and depth that the data owner sees fit. The general rule of thumb is to describe the dataset related to a publication. Any accessible format like `.csv`, `.xls`, or similar is acceptable.  
 
-<img src="https://dataedo.com/asset/img/kb/glossary/data_vs_data_dictionary.png" alt="tabular">
+![Tabular](https://dataedo.com/asset/img/kb/glossary/data_vs_data_dictionary.png){alt="tabular"}
 
 In case it is a database, a data model must be included in machine-readable format (e.g., `.sql`) and a human-friendly diagram (e.g., ER model on `.pdf`).
 
@@ -152,129 +142,20 @@ There are several tools that help you to convert your dataset from a conventiona
 |Virtuoso Universal Serve | [LINK](https://virtuoso.openlinksw.com/)| ✅|It's nice but you have to pay for a license|
 |UM LDWizard | [LINK](https://github.com/MaastrichtU-IDS/ldwizard-humanities)| ✅|It's free, gets the job done quickly, and you can publish data if you have a [TriplyDB](https://triplydb.com/) account → **RECOMMENDED**|
 
-> ## Exercise - Level Hard 🌶🌶🌶
->
-> 1. Transform a dataset from XLSX format to RDF format using [UM LDWizard](https://github.com/MaastrichtU-IDS/ldwizard-humanities)  
->
-> 2. Download the following mock dataset: [MOCK DATA](../data/MOCK_DATA_BOOTCAMP.xlsx)  
-> 
-> 3. What ontology terms did you reuse to describe the data attributes?  
-> {: .source}
->
-> > ## Solution
-> >
-> > There is no one single answer 🤓
-> > {: .output}
-> {: .solution}
-{: .challenge}
+## Exercise - Level Hard 🌶🌶🌶
 
-> ## Discussion  
-> Scenario:  
+1. Transform a dataset from XLSX format to RDF format using [UM LDWizard](https://github.com/MaastrichtU-IDS/ldwizard-humanities)  
+
+2. Download the following mock dataset: [MOCK DATA](../data/MOCK_DATA_BOOTCAMP.xlsx)  
+ 
+3. What ontology terms did you reuse to describe the data attributes?  
+
+## Solution
+
+There is no one single answer 🤓
+
+## Discussion  
+Scenario:  
 You are a marine biology researcher, your group has discovered new organisms, and it's time to create data descriptions. However, there are no available Ontologies to describe the data records, given that they are new scientific discoveries.
-> 
-> Discuss with your team what the researcher should do given that apparently there are no available Ontologies to describe their data.
-{: .discussion}
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JS8K9J9GE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-1JS8K9J9GE');
-</script>
-
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Course",
-    "name": "Circular Research Data Bootcamp",
-    "description": "This is the coursebook of the Circular Research Data Bootcamp. This coursebook is an Open Educational Resources following the FAIR and Open Science recommendations. A week-long summer camp training looking at real-world examples to achieve data sustainability following the FAIR principles of research data management. ",
-    "version": "v1.0",
-    "url": "https://doi.org/10.5281/zenodo.6974103",
-    "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
-    "dateCreated": {
-        "@type": "Date",
-        "@value": "2022-08-01"
-    },
-    "datePublished": {
-        "@type": "Date",
-        "@value": "2022-08-08"
-    },
-    "inLanguage": {
-        "@type": "Language",
-        "name": "EN",
-        "alternateName": "EN"
-    },
-    "keywords": [
-        "Research Data Management",
-        "Research Data Reuse",
-        "Bootcamp",
-        "Online Summer Camp",
-        "FAIR",
-        "FAIR Digital Objects"
-    ],
-    "creator": {
-        "@type": "Person",
-        "name": "Pedro Hernandez Serrano",
-        "givenName": "Pedro",
-        "familyName": "Hernandez Serrano",
-        "image": "https://avatars.githubusercontent.com/u/12054964?v=4",
-        "jobTitle": "Data Steward",
-        "email": "p.hernandezserrano@maastrichtuniversity.nl",
-        "affiliation": {
-            "@type": "Organization",
-            "name": "Maastricht University Library",
-            "url": {
-                "@type": "URL",
-                "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
-            }
-        }
-    },
-    "contributor": [
-        {
-            "@type": "Person",
-            "givenName": "Maria",
-            "familyName": "Vivas Romero",
-            "jobTitle": "Data Steward",
-            "email": "m.vivasromero@maastrichtuniversity.nl",
-            "affiliation": {
-                "@type": "Organization",
-                "name": "Maastricht University Library",
-                "url": {
-                    "@type": "URL",
-                    "@value": "https://library.maastrichtuniversity.nl/research/rdm/"
-                }
-            }
-        }
-    ],
-    "publisher": {
-        "@type": "Person",
-        "name": "Pedro Hernandez Serrano",
-        "givenName": "Pedro",
-        "familyName": "Hernandez Serrano",
-        "jobTitle": "Data Steward",
-        "email": "p.hernandezserrano@maastrichtuniversity.nl"
-    },
-    "citation": {
-        "@type": "CreativeWork",
-        "name": "Circular Research Data Coursebook",
-        "creator": [
-            {
-                "@type": "Person",
-                "name": "Pedro Hernandez Serrano"
-            },
-            {
-                "@type": "Person",
-                "name": "Maria Vivas Romero"
-            }
-        ]
-    },
-    "learningResourceType": "Coursebook",
-    "provider": {
-        "@type": "Organization",
-        "name": "Maastricht University"
-    }
-}
-</script>
+Discuss with your team what the researcher should do given that apparently there are no available Ontologies to describe their data.
